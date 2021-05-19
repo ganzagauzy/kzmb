@@ -16,6 +16,9 @@ p{
     visibility: hidden;
     height: 0;
 }
+
+
+
 #popup {
     position: fixed;
     top: 30%;
@@ -334,17 +337,19 @@ section{
     margin-top: 50px;
 }
 
+.contactForm#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
 .contactForm h3 {
     color: #111;
     font-size: 1.2em;
     margin-bottom: 20px;
     font-weight: 500;
 }
-.contactForm#blur.active{
-    filter: blur(20px);
-    pointer-events: none;
-    user-select: none;
-}
+
 
 .contactForm .inputBox {
     position: relative;
