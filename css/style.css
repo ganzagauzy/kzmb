@@ -19,8 +19,8 @@ p{
 #popup {
     position: fixed;
     top: 30%;
-    left: 40%;
-    transform: translate(-40%, -40%);
+    left: 30%;
+    transform: translate(-45%, -45%);
     width: 300px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, o, 0, .30);
