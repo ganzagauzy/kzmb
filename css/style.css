@@ -514,4 +514,19 @@ section{
         font-size: 2.2em;
         
     }
+    
+    #popup {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-45%, -45%);
+        width: 300px;
+        padding: 50px;
+        box-shadow: 0 5px 30px rgba(0, o, 0, .30);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+
+        }
 }
