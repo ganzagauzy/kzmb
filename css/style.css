@@ -229,13 +229,13 @@ section{
 }
 .expert .content .box .text h3 {
     font-weight: 400;
-    color: #111;
+    color: #fff;
 }
 
 /* Testimony */
 
 .testimony {
-    background: url(bg211.jpg);
+    background: url();
     background-size: cover;
 }
 .white .titleText ,
