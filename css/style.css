@@ -12,6 +12,10 @@ p{
     font-weight: 300;
     color: #111;      
 }
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 
 .banner{
     position: relative;
