@@ -291,7 +291,7 @@ section{
 
 /* Contact */
 .contact {
-    background: url();
+    background: url(bg33.jpg);
     background-size: cover;
 }
 
@@ -401,7 +401,7 @@ section{
        position: relative;
        width: 40px;
        height: 40px;
-       background: url(menu.png);
+       background: url(menu1.png);
        background-size: 30px;
        background-repeat: no-repeat;
        background-position: center;
@@ -409,7 +409,7 @@ section{
    }
 
    .menuToggle.active {
-       background: url(clse.jpg);
+       background: url(close1.png);
        background-size: 25px;
        background-repeat: no-repeat;
        background-position: center;
