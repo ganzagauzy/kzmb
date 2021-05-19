@@ -16,6 +16,33 @@ p{
     visibility: hidden;
     height: 0;
 }
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    width: 300px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, o, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+
+#popup .inputBox {
+    letter-spacing: normal;
+}
+
 
 .banner{
     position: relative;
@@ -313,12 +340,20 @@ section{
     margin-bottom: 20px;
     font-weight: 500;
 }
+.contactForm#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
 .contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
 
 }
+
+
 .contactForm .inputBox input ,
 .contactForm .inputBox textarea {
     width: 100%;
@@ -348,7 +383,7 @@ section{
 }
 
 
-.contactForm .inputBox input[type="submit"]:hover{
+.contactForm .inputBox .btn:hover{
     letter-spacing: 2px;
 }
 

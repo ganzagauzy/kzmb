@@ -233,7 +233,7 @@
                 <h2 class="titleText"><span>C</span>all Us On : 0783812678</h2>
             </div>
         </div> 
-        <div class="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <div class="contactForm" id="blur" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 
 
             <input type="hidden" name="form-name" value="contact">
@@ -255,13 +255,21 @@
             <div class="inputBox">
                 <textarea placeholder="Message" required></textarea>
             </div>
-            <div class="inputBox">
-                <input type="submit" class="btn" value="Send">
+            <div class="inputBox" >
+                <input type="submit" class="btn" onclick="toggle()" value="Send">
             </div>
 
             
   
         </div> 
+        <div id="popup">
+            <h2>Thank you!</h2>
+            <p> Your form was submitted</p>
+            <div class="inputBox" >
+                <input type="submit" class="btn" onclick="toggle()" value="Back">
+            </div>
+                
+        </div>
 
     </section>
 
