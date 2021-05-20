@@ -54,7 +54,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(bg.jpg);
+    background: url(bg44.jpg);
     background-size: cover;
     
 }
@@ -102,7 +102,8 @@ header{
 
 }
 header.sticky {
-    background: #fff;
+   
+    background: #111;
     padding: 10px 100px;
     
     box-shadow: 0 5px 20px rgba(0, o, 0, 0.05);
@@ -115,7 +116,7 @@ header .logo {
     text-decoration: none;
 }
 header.sticky .logo {
-    color: #111;
+    color: #fff;
 }
 
 
@@ -136,7 +137,7 @@ header .navigation li a {
     font-weight: 300;
 }
 header.sticky .navigation li a {
-    color: #111;
+    color: #fff;
 }
 header .navigation li a:hover {
     color: #ff0157;
@@ -265,7 +266,7 @@ section{
 /* Testimony */
 
 .testimony {
-    background: url(bg211.JPG);
+    background: url(bg55.jpg);
     background-size: cover;
 }
 .white .titleText ,
@@ -394,10 +395,10 @@ section{
 
 /* Footer */
 .copyrightText {
-    padding: 4px 40px;
+    padding: 20px 40px;
     border-top: 1px solid rgba(0, o, 0, 0.1);
     text-align: center;
-    background: black;
+    background: #111;
 }
 .copyrightText p {
     color: #fff;
