@@ -103,7 +103,7 @@ header{
 }
 header.sticky {
    
-    background: #111;
+    background: #fff;
     padding: 10px 100px;
     
     box-shadow: 0 5px 20px rgba(0, o, 0, 0.05);
@@ -116,7 +116,7 @@ header .logo {
     text-decoration: none;
 }
 header.sticky .logo {
-    color: #fff;
+    color: #111;
 }
 
 
@@ -436,7 +436,7 @@ section{
     }
     header .navigation li a {
         text-decoration: none;
-        color: #111;
+        color: #fff;
         font-size: 1.6em;
         font-weight: 300; 
     }
