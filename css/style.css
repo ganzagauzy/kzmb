@@ -436,7 +436,7 @@ section{
     }
     header .navigation li a {
         text-decoration: none;
-        color: #fff;
+        color: #111;
         font-size: 1.6em;
         font-weight: 300; 
     }
