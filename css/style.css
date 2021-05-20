@@ -137,7 +137,7 @@ header .navigation li a {
     font-weight: 300;
 }
 header.sticky .navigation li a {
-    color: #fff;
+    color: #111;
 }
 header .navigation li a:hover {
     color: #ff0157;
@@ -458,7 +458,7 @@ section{
        background-size: 25px;
        background-repeat: no-repeat;
        background-position: center;
-       color: #111;
+       color: #fff;
    }
    header.sticky .menuToggle {
        filter: invert(2);
